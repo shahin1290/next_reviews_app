@@ -1,3 +1,5 @@
+import { orbitron } from '@/app/fonts';
+
 export default function Heading({ children }) {
-  return <h1 className="font-bold pb-3 text-2xl">{children}</h1>;
+  return <h1 className={" font-orbitron font-bold pb-3 text-2xl"}>{children}</h1>;
 }
